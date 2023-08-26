@@ -68,7 +68,7 @@ padding: 10px 20px;
 .memeimg{
   max-width:100vw;
     max-height:100vh;
-  display:flex;
-  border: 2rem solid black;
+  /* display:flex; */
+  border: 0.25rem  double black;
 }
 
