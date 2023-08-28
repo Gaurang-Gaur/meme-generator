@@ -14,9 +14,10 @@ export default function Form() {
 
   function generaterandomno() {
     const memeArray = allMemeImages.data.memes;
+
     let randmemeobj = memeArray[Math.floor(Math.random() * memeArray.length)];
 
-
+// here we using the seperetor operator....
     url = randmemeobj.url; //const {url}=randmemeobj;// This is destructuring of the object in js which equal to randmemeobj.url
     setmeme((prevmeme)=>{
         return {
